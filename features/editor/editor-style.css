@@ -1,0 +1,62 @@
+/* Dark background and light text */
+.editor-styles-wrapper {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+  padding: 2rem !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 600px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Remove block spacing to keep it minimal */
+.editor-styles-wrapper .wp-block {
+  margin: 0 0 1.5rem 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+/* Style paragraphs */
+.editor-styles-wrapper p {
+  margin: 0 0 1.5rem 0;
+}
+
+/* Style code blocks like Obsidian */
+.editor-styles-wrapper pre,
+.editor-styles-wrapper code {
+  background-color: #1e1e1e !important;
+  color: #d4d4d4 !important;
+  border-radius: 6px !important;
+  padding: 12px !important;
+  font-family: monospace !important;
+  white-space: pre-wrap !important;
+  overflow-x: auto !important;
+}
+
+/* Style horizontal rule */
+.editor-styles-wrapper hr {
+  border: none;
+  border-top: 1px solid #444;
+  margin: 2rem 0;
+}
+
+/* Hide sidebar and top toolbar for minimal distraction */
+body.wp-admin.post-type-post.wp-block-editor {
+  --wp-admin-theme-color: #121212;
+}
+
+.edit-post-sidebar,
+.edit-post-header {
+  display: none !important;
+}
+
+.edit-post-layout__content {
+  margin: 0 !important;
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+
+

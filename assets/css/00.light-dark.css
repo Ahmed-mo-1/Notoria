@@ -1,0 +1,106 @@
+#theme-toggle {
+	width: 24px; 
+	height: 24px; 
+	background: var(--main-color); 
+	border-radius: 50px
+}
+
+.light {
+	background: #505050 !important
+}
+
+body.light-mode {
+	--main-color: #00538f;
+	--main-color-hover: #005fa3;
+	--main-color-transparent: #0077cc50;
+	--main-background-color : #eee;
+	--sec-background-color : #f5f5f5;
+	--thi-background-color: #fff;
+	--border-color : #505050;
+	--text-color : #222;
+	background: var(--thi-background-color);
+	color: var(--text-color);
+}
+
+body.light-mode .page {
+	/*background: var(--sec-background-color);*/
+	color: var(--text-color);
+}
+
+body.light-mode .container {
+	/*background: var(--main-background-color);
+	border: 2px solid var(--border-color);*/
+}
+
+body.light-mode article {
+	background: var(--thi-background-color);
+/*	border: 2px solid var(--border-color);*/
+	color: var(--text-color);
+}
+
+body.light-mode header,
+body.light-mode footer {
+	background: var(--main-background-color);
+	border: 2px solid var(--border-color);
+	color: var(--text-color);
+}
+
+body.light-mode pre {
+	background: var(--thi-background-color);
+	color: var(--text-color);
+	border: 2px solid var(--border-color);
+	border-radius: 16px
+}
+
+body.light-mode code {
+	color: var(--text-color);
+
+}
+
+
+body.light-mode .token.attr-name, body.light-mode .token.deleted, body.light-mode .token.namespace, body.light-mode .token.tag {
+    color: #ec0007;
+}
+
+body.light-mode .token.attr-value, body.light-mode .token.char, body.light-mode .token.regex, body.light-mode .token.string, body.light-mode .token.variable {
+    color: #007635;
+}
+
+body.light-mode .token.atrule, body.light-mode .token.builtin, body.light-mode .token.important, body.light-mode .token.keyword, body.light-mode .token.selector {
+    color: #aa00ae;
+}
+
+body.light-mode .token.class-name, body.light-mode .token.constant, body.light-mode .token.property, body.light-mode .token.symbol {
+    color: #0051ff;
+}
+
+body.light-mode .token.block-comment, body.light-mode .token.cdata, body.light-mode .token.comment, body.light-mode .token.doctype, body.light-mode .token.prolog {
+    color: #555;
+}
+
+body.light-mode .token.punctuation {
+    color: #252525;
+}
+
+
+.token.boolean, .token.function, .token.number {
+    color: #cf4b00;
+}
+
+body.light-mode .pagination .nav-links a.page-numbers {
+	color: white;
+}
+
+body.light-mode span.page-numbers.current {
+	background: #ccc;
+}
+
+body.light-mode input[type="checkbox"][disabled] {
+	border-color: var(--border-color);
+	background-color: #f5f5f5;
+}
+
+body.light-mode input[type="checkbox"][disabled][checked] {
+	background-color: var(--main-color);
+	border-color: var(--border-color);
+}

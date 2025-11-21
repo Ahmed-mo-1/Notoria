@@ -1,0 +1,90 @@
+
+.container {
+	width: 75%;
+	display: flex;
+    flex-direction: column;
+    gap: 20px;
+	flex: 1;
+/*    padding: 40px;
+    background: #1a1a1a;
+    border-radius: 16px;
+    border: 2px solid #252525;
+
+*/
+}
+
+ 
+header a, .container a{
+	color: var(--main-color);
+	text-decoration: none;
+}
+
+@media(max-width: 900px){
+	.container {
+		width: 100%;
+		/*padding: 20px;*/
+	}
+}
+
+article {
+	width: 100%;
+	background: #252525; 
+	padding: 20px; 
+	border-radius: 20px; 
+	/*margin-bottom: 20px;*/
+	border: 2px solid var(--border-color);
+}
+
+article .post-content {
+	flex-direction: column;
+	gap: 10px
+}
+
+
+.show {display: block !important}
+.hide {display: none !important}
+
+code[class*=language-], pre[class*=language-] {
+	text-wrap: wrap !important
+}
+
+.pagination .nav-links {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+a.page-numbers {
+    width: 40px;
+    height: 40px;
+    background: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    color: #252525;
+	text-decoration: none;
+	transition: 0.2s
+}
+
+a.page-numbers:hover {
+    width: 44px;
+    height: 40px;
+    background: var(--main-color-hover);
+	color: white
+}
+
+a.next, a.prev {
+    display: none;
+}
+
+span.page-numbers.current {
+    width: 40px;
+    height: 40px;
+    background: #252525;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}

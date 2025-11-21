@@ -1,0 +1,21 @@
+.page {
+	max-width: 1200px;
+    width: 100%;
+	flex: 1;
+/*    padding: 40px; 
+    border-radius: 16px;
+    border: 2px solid #252525;
+*/	display: flex; 
+/*	justify-content: center;
+	align-items: start;
+	background: #1a1a1a;
+*/	gap: 20px
+}
+
+@media(max-width: 900px){
+	.page {
+		width: 100%;
+		/*padding: 20px;*/
+		flex-direction: column
+	}
+}
