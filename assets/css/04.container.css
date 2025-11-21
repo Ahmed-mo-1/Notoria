@@ -30,7 +30,7 @@ article {
 	width: 100%;
 	background: #252525; 
 	padding: 20px; 
-	border-radius: 20px; 
+	/*border-radius: 20px; */
 	/*margin-bottom: 20px;*/
 	border: 2px solid var(--border-color);
 }
