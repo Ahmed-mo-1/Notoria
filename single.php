@@ -12,7 +12,7 @@ function contains_arabic($text) {
     return preg_match('/[\x{0600}-\x{06FF}\x{0750}-\x{077F}]/u', $text);
 }
 ?>
-<!--<button onclick="takeScreenshot()" style="width: 10px; height: 10px; background: #151515 ; border-radius: 50px; border: none; position: absolute"></button>-->
+<button onclick="takeScreenshot()" style="display: none; width: 10px; height: 10px; background: #151515 ; border-radius: 50px; border: none; position: absolute"></button>
 <div id="screenshot-target" class="articles" style="">
 	<?php while ( have_posts() ) : the_post(); ?>
 	<?php include 'assets/single-loop.php'; ?>
