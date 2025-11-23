@@ -7,7 +7,7 @@ include_once 'features/parsedown.php';
 include_once 'features/rtl-arabic.php';
 include_once 'features/logo.php';
 include_once 'features/lite.php';
-include_once 'features/preventCopy.php';
+//include_once 'features/preventCopy.php';
 include_once 'inc/seo.php';
 
 /*
