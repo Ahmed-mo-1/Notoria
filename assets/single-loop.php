@@ -17,7 +17,7 @@
 <h2 dir="<?php echo $dir; ?>" style="cursor: pointer; color: var(--main-color); text-align: <?php echo $text_align; ?>; font-family: <?php echo $font_family; ?>; margin: 0" >
 <?php echo esc_html($title); ?>
 </h2>
-<p dir="<?php echo $dir; ?>" style="margin: 0 0 20px 0 ; font-size: 12px"><?php echo $date; ?></p>
+<!--<p dir="<?php echo $dir; ?>" style="margin: 0 0 20px 0 ; font-size: 12px"><?php echo $date; ?></p>-->
 <div class="post-content">
 <?php the_content(); ?>
 </div>
